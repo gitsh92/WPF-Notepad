@@ -13,7 +13,7 @@ namespace WPFNotepad.ViewModels
 
     private void DisplayAbout()
     {
-      // open help dialog
+      new HelpDialog().ShowDialog();
     }
   }
 }
