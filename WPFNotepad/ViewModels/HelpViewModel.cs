@@ -8,7 +8,7 @@ namespace WPFNotepad.ViewModels
 
     public HelpViewModel()
     {
-      HelpCommand = new RelayCommand(null);
+      HelpCommand = new RelayCommand(DisplayAbout);
     }
 
     private void DisplayAbout()
