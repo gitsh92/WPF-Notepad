@@ -22,7 +22,9 @@ namespace WPFNotepad.ViewModels
 
     private void OpenStyleDialog()
     {
-      throw new NotImplementedException();
+      var formatDialog = new FormatDialog();
+      formatDialog.DataContext = Format;
+      formatDialog.ShowDialog();
     }
 
     private void ToggleWrap()
